@@ -59,19 +59,32 @@ uvicorn app.main:app --reload
 
 ---
 
-# API Endpoints
-## Products
-- POST /products/ – Create a new product
-- GET /products/ – Get all products
-- GET /products/{product_id} – Get a specific product
-- PUT /products/{product_id} – Update a product
-- DELETE /products/{product_id} – Delete a product
-## Orders
-- POST /orders/ – Create a new order
-- GET /orders/ – Get all orders
-- GET /orders/{order_id} – Get a specific order
-## Webhooks
-- POST /webhooks/payment – Update order status after payment
+## 📌 API Endpoints
+
+### 🛍️ Products
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| POST   | `/products/`             | Create a new product |
+| GET    | `/products/`             | Get all products |
+| GET    | `/products/{product_id}` | Get details of a specific product |
+| PUT    | `/products/{product_id}` | Update a product |
+| DELETE | `/products/{product_id}` | Delete a product |
+
+---
+
+### 📦 Orders
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| POST   | `/orders/`             | Create a new order |
+| GET    | `/orders/`             | Get all orders |
+| GET    | `/orders/{order_id}`   | Get details of a specific order |
+
+---
+
+### 🔔 Webhooks
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| POST   | `/webhooks/payment` | Update order status after payment |
 
 ---
 
