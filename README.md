@@ -73,3 +73,14 @@ uvicorn app.main:app --reload
 ## Webhooks
 - POST /webhooks/payment – Update order status after payment
 
+---
+
+## 🤝 Open Contribution
+We’d love your help to make this project even better!  
+Whether you’re fixing a bug, adding a cool feature, or just improving documentation — every contribution counts. 💡
+
+Here’s how you can join in:
+1. 🍴 **Fork** this repository  
+2. 🌱 **Create** a new branch for your change  
+3. 💻 **Make** your improvements  
+4. 📬 **Open** a pull request and share your awesome work with us!
