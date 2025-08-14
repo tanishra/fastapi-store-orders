@@ -1,0 +1,8 @@
+.DS_Store
+app.db
+store.db
+venv
+app/__pycache__
+app/utils.py
+app/api/__pycache__
+tests
