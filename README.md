@@ -6,7 +6,7 @@ Uses **SQLite** for database storage and **SQLModel** ORM for clean, beginner-fr
 
 --- 
 ## Live Demo
-[Click here to view the deployed API](https://your-deployed-link.com)
+[Click here to view the deployed API](https://orders-products-api.onrender.com/docs)
 
 ---
 
